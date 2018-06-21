@@ -2,7 +2,7 @@
 function calculMultiplication(){
 var firstNumber = document.getElementById("firstNumber").value;
 var secondNumber = document.getElementById("secondNumber").value;
-var regex = /^[0-9]+[.1][0-9]+$/;
+var regex = /^[0-9]+[.][0-9]+$/;
 //déclaration de la condition
     if((regex.test(firstNumber) == true) || (regex.test(secondNumber) == true)){
       //Renvoie le plus grand entier qui est inférieur ou égal à un nombre x
