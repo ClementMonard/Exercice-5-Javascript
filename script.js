@@ -6,7 +6,7 @@ var regex = /^[0-9]+[.1][0-9]+$/;
 //déclaration de la condition
     if((regex.test(firstNumber) == true) || (regex.test(secondNumber) == true)){
       //Renvoie le plus grand entier qui est inférieur ou égal à un nombre x
-      firstNumber = Math.floor(firstNumber);
+      firstNumber = Math.trunc(firstNumber);
       //Affichage du résultat
       alert(firstNumber * secondNumber);
     }
